@@ -1,4 +1,4 @@
-#Bloqueo de Paginas Web con FastAPI 
+# Bloqueo de Paginas Web con FastAPI 
 
 
 ###### La API requiere para su funcionamiento la instalación de **Python 3.14+**  
@@ -10,7 +10,7 @@ Las demás dependencias se instalarán  desde el archivo **`requirements.txt`**.
 En la instalacion es **recomendable instalarlo de una vez en el PATH**, esto se logra seleccionando la siguiente opcion en el proceso de instalación:
 ![](https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2023/12/como-instalar-phyton-windows-11-3245424.jpg?tf=1920x)
 
-##¿Como instalar las depencias?
+## ¿Como instalar las depencias?
 
 ###  1 Verificar instalación de Python y pip
 
