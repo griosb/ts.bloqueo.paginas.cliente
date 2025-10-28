@@ -19,14 +19,16 @@ En la instalacion es **recomendable instalarlo de una vez en el PATH**, esto se 
     python -m venv venv
     venv\scripts\activate #activar el entorno virtual
 ###3 Instalar las dependencias del proyecto
+
     pip install -r requirements.txt
+    
 Esto instalara unicamente todas las librerias necesarias para correr la API
 
 >si se quiere agregar mas dependencias al proyecto se necesita ejecutar 
 `pip freeze > requirements.txt`
 
 ##Uvicorn 
->#####Cambie la direccion y la base de datos para las consultas de la api y >guardado, en el directorio config\database.py antes de ejecutar el servidor 
+>Cambie la direccion y la base de datos para las consultas de la api y >guardado, en el directorio config\database.py antes de ejecutar el servidor 
 >`engine = create_engine("mysql+pymysql://root:root123@localhost:3306/pagesblock") >#access of the db`
 
 Uvicorn  es un servidor ASGI rapido que se basa en uvloop y httptools. Es un componente del ecosistema asicronico de Python, recomendando usar cuando se utiliza FastAPI
